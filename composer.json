@@ -1,0 +1,21 @@
+{
+    "name": "tii/yii2-daemon",
+    "version":"1.0.0.0",
+    "description": "Daemons for Yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "extension", "daemon"],
+    "authors": [
+        {
+            "name": "tii",
+            "email": "tii@equifax.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "tii\\yii2daemon\\": ""
+        }
+    }
+}
